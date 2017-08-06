@@ -19,7 +19,7 @@ __`Register for all races` with [the GPCM Series Pass](http://obra.org/events/25
 * **Ninkrossi CX** (WMXP, Washougal, WA) 9/23/17 [Register](http://obra.org/events/25682/register)
 * **Heiser CX** (Heiser Farm, Dayton, OR) 9/30/17 [Register](http://obra.org/events/25683/register)
 * **Washougal CX** (WMXP, Washougal, WA) 10/14/17 [Register](http://obra.org/events/25684/register)
-* **Luscher Farm** Crosstoberfest(Lake Oswego, OR) 10/28/17 [Register](http://obra.org/events/25685/register)
+* **Luscher Farm Crosstoberfest** (Lake Oswego, OR) 10/28/17 [Register](http://obra.org/events/25685/register)
 
 
 ## Categories
