@@ -2,7 +2,10 @@
 layout: default
 ---
 
+[Sellwood Cycle Repair](https://sellwoodcycle.com/), [Castelli](https://www.castelli-cycling.com/), and Zone 5 Promotions are proud to present the 2017 Cyclocross Grand Prix.
+
 The Grand Prix Candi Murray is a Cyclocross Series composed of seven independently promoted CX races. These great independent races kick off the OBRA Cyclocross season and run from the start of September to the end of October. Riders from any state are welcome to race the GPCM. Series overall awards and prizes will be handed out at the GPCM series end party, in late October. Come experience some amazing cyclocross courses, competitive racing and exciting new race venues.
+
 
 ## Races
 
@@ -32,29 +35,6 @@ The Grand Prix Candi Murray is a Cyclocross Series composed of seven independent
 
 *Promoter and/or officials reserves the right to change your category.*
 
-
-### Other Files
-
-* Edit `_config.yml` to change the site's title and description.
-* Edit `_includes/head.html` to add custom code to `<head>`.
-* Edit `_includes/scripts.html` to add custom code before `</body>`.
-* Edit `CNAME` to host on a custom domain.
-* Edit `README.md` before pushing your code.
-
-### Don't use `<h1>` tags
-
-Wthin `index.md`, do not use `<h1>` tags - `<h1>` is reserved for the site title.
-
-### Supported Tags
-
-Solo supports lists, `<hr>`s, `<table>`s,
-
-> blockquotes, and...
-
-~~~html
-<pre>code blocks with syntax highlighting.</pre>
-~~~
-
 ### New start times for 2017
 
 For 2017 both the GPCM series and Cross Crusade series are adopting a new schedule, which is as follows. Some race classes have moved up and back an hour, so be sure to double-check before you head out to race!
@@ -73,15 +53,35 @@ For 2017 both the GPCM series and Cross Crusade series are adopting a new schedu
 * 3:05pm – Men 1/2, Women 1/2, Men 1/2 35+ (60 min)
 * 4:15pm - Podiums
 
+### Points
 
-## Author
+The best six out of seven placings in the series will count in the final tally (dropping the one race with the fewest points). Riders must race in at least 5 races for the overall series. Series prizes will be awarded at the series end party. There will be no BAR points for the series, only the individual races.
 
-Shu Uesugi ([Twitter](http://twitter.com/chibicode)/[GitHub](http://github.com/chibicode)/[G+](https://plus.google.com/110325199858284431541?rel=author)).
+Points will be rewarded to the top 30 placings according to [this schedule](http://cyclocross.gp/Individualseriesscoring.pdf). Series scoring follows [this criteria](http://cyclocross.gp/SeriesScoring.pdf) and team scoring follows [this criteria](http://cyclocross.gp/Teamscoringforsingleevents.pdf). Reminder: only your top 6 results count and a minimum of 5 race results needed to have a series overall final ranking. Point totals and point standings will be handled by OBRA and we'll link to them each week in the updates.
 
-![Shu Uesugi](https://www.gravatar.com/avatar/b868d84bbe2ed30ec45c9253e1c1cefe.jpg?s=200)
+### PODIUMS/LEADERS JERSEY
 
-### License
+A short podium ceremony will follow each finish at the races. A GPCM leaders jersey provided by Castelli will be awarded to the leader of select categories during a short podium ceremony after their race. The points leader of each category is required to wear their leader's jersey while they maintain their lead.
 
-[MIT License](http://chibicode.mit-license.org/)
+### FIELD LIMITS
 
-<style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+To ensure a high level of quality racing, fields will be limited to 75 racers per category
+
+### SERIES STANDINGS
+
+Points for the series will be tracked at OBRA. They will continue to be updated after each race. We are not doing a points percentage transfer when upgraded.
+
+### Membership and licenses
+
+OBRA membership required for all riders. Single race memberships are available for $5.00. Season OBRA memberships are available for $30.00. Junior season memberships are $10.
+
+### Prize List
+
+A combined prize list well over $4,500 across the series. Every series race provides their own prize list at each individual race (cash and/or merchandise). Sellwood Cycle Repair will be providing a $2,500 Cash/Gift Certificate purse for all categories (Cash - 1/2's / G.C. and product -all other categories). Equal payout.
+
+### T-shirts
+
+Yes, we have GPCM shirts for sale at events!
+
+
+
