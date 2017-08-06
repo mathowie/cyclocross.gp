@@ -54,9 +54,24 @@ Solo supports lists, `<hr>`s, `<table>`s,
 <pre>code blocks with syntax highlighting.</pre>
 ~~~
 
-### Keep Solo up to date
+### New start times for 2017
 
-Instead of downloading, you can [fork Solo](https://github.com/chibicode/solo/fork) and use the "upstream" strategy described on [this page](https://help.github.com/articles/fork-a-repo) to keep Solo up to date.
+For 2017 both the GPCM series and Cross Crusade series are adopting a new schedule, which is as follows. Some race classes have moved up and back an hour, so be sure to double-check before you head out to race!
+
+* 8:30am – Men 4, Clydesdale, Athena (45 min)
+* 9:25am – Men 4 35+, Men 60+ (45 min)
+* 10:15am – *Break* / Course Preview/ Podiums (10 min)
+* 10:25am – Men 5, Women SS (45 min)
+* 11:20am – Men 3 35+, Men 50+ (45 min)
+* 12:05pm – Kiddie Kross (age 9 and under)
+* 12:20pm – *Break* / Course Preview/ Podiums (10 min)
+* 12:30pm – Juniors: Cat 3/4/5 Men & Women (30 min)
+* 1:10pm – Men 2/3, Men SS, Men 1/2/3 Jr. (45 min)
+* 2:00pm – *Break* / Course Preview/ Podiums (10 min)
+* 2:10pm – Women: 1/2 35+, 3, 3 35+, 50+, Cat 4, Cat 5, Women 1/2/3/ Jr. (45 min)
+* 3:05pm – Men 1/2, Women 1/2, Men 1/2 35+ (60 min)
+* 4:15pm - Podiums
+
 
 ## Author
 
