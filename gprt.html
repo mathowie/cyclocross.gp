@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Grand Prix Ryan Trebon</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	<!--Delete embedded styles, just for example.-->
+	<style type="text/css">
+	
+	body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#aaa;	}
+	
+	.container p {
+	margin: 20px 0 0 0;
+	}
+	 
+	 .past, .past a {
+			color: #666;
+		}
+	
+
+	h1, h3 {
+		color:#a0c651;
+		margin-top:10px;
+		text-transform: uppercase;
+	}
+	
+	h2 {
+		color:#1c3e94;
+		margin-top:10px;
+		text-transform: uppercase;
+	}
+	
+.container p, .container h1, .container h2, .container dl, .container h3 {
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+ .row {
+		background:#fff;
+}
+
+dl {
+	line-height:220%;
+	
+}
+
+dt{
+		  position:relative;
+			}
+		dt strong{
+		  font-weight:bold;
+		  padding:0.1em 0.3em 0.2em 0;
+		
+		}
+
+a.btn {
+					margin-right:66px;
+		}
+
+		dt span{
+		  position:absolute;
+		  right:0;
+		  padding:0.1em 0 0.2em 0.3em;
+
+		}
+
+	
+	.blue {
+		background:#99e4ff;
+	}
+	
+	a.reg {
+		text-transform: uppercase;
+		text-decoration: none;
+		color:#333;
+		font-size:smaller;
+	}
+	
+	.flyer {
+		text-align: center;
+		
+	}
+	
+	p.blog {
+		border-bottom: 1px dotted #ccc;
+		padding-bottom: 20px;
+	}
+	
+  .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+.clearfix {display: inline-block;}  /* for IE/Mac */
+    
+
+small {
+	font-size:10px;
+	color:#666;
+}
+
+.register {
+	text-decoration:none;
+	text-transform:uppercase;
+	letter-spacing:0.5px
+}
+.btn {
+display: inline-block;
+padding: 4px 12px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+color: #333;
+text-align: center;
+text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+vertical-align: 2px;
+cursor: pointer;
+background-color: #f5f5f5;
+background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+background-repeat: repeat-x;
+border: 1px solid #bbb;
+border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+border-bottom-color: #a2a2a2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+}
+.btn-success {
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+background-color: #5bb75b;
+background-image: -moz-linear-gradient(top,#62c462,#51a351);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#62c462),to(#51a351));
+background-image: -webkit-linear-gradient(top,#62c462,#51a351);
+background-image: -o-linear-gradient(top,#62c462,#51a351);
+background-image: linear-gradient(to bottom,#62c462,#51a351);
+background-repeat: repeat-x;
+border-color: #51a351 #51a351 #387038;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462',endColorstr='#ff51a351',GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-mini {
+padding: 1px 6px;
+font-size: 10.5px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+color: #fff;
+background-color: #51a351;
+}
+.btn:active {
+background-color: #e6e6e6;
+background-color: #d9d9d9 \9;
+background-image: none;
+outline: 0;
+-webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+-moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+color: #fff;
+background-color: #51a351;
+}
+.btn:hover {
+	color: white;
+	text-decoration: none;
+	background-position: 0 -15px;
+	transition: background-position .1s linear;
+}
+
+.footy {
+	background:#a0c651;
+}
+	</style>
+
+<!--[if IE]>
+<style type="text/css">
+  .clearfix {
+    zoom: 1;     /* triggers hasLayout */
+    display: block;     /* resets display for IE/Win */
+    }  /* Only IE can see inside the conditional comment
+    and read this CSS rule. Don't ever use a normal HTML
+    comment inside the CC or it will close prematurely. */
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="//use.typekit.net/ndo8vkz.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+</head>
+
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="twelvecol">
+<img src="/images/header-gprt.png">
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="twelvecol">
+						
+			<h1>GPRT Series Info</h1>
+<p>
+The Grand Prix Ryan Trebon is a Cyclocross Series composed of six independently promoted CX races. These
+great independent races kick off the OBRA Cyclocross season and run from the end of August to the beginning of October. Riders from any state are welcome to race the GPRT. Series overall awards and prizes will be handed out at the GPRT series end party, in early October. Come experience some amazing cyclocross courses, competitive racing and exciting new race venues.	
+</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row blue">
+		<div class="sixcol">
+		
+		<h2>Races</h2>
+		
+		
+		<!-- use  class="past" on old races -->
+		<p>
+			<dl>
+			  <dt>
+			    <strong><a href="http://www.zone5promotions.com/ddcx1/" title="">David Douglas CX</a></strong> <a href="https://www.athletepath.com/david-douglas-1/2014-08-30/results" class="register btn btn-success btn-mini">results</a>
+			    <span>8/30/14</span>
+			  </dt>
+			  <dt>
+			    <strong><a href="http://www.zone5promotions.com/hetmeercx/" title="">Het Meer CX</a></strong> <a href="https://www.athletepath.com/het-meer-cx/2014-09-06/results" class="register btn btn-success btn-mini">results</a>
+			    <span>9/6/14</span>
+			  </dt>
+			  <dt>
+			    <strong><a href="http://www.obra.org/flyers/2014/2014_doublecross_1.pdf" title="">Hood River Double Cross #1</a></strong> <a href="https://www.athletepath.com/double-cross/2014-09-13/results" class="register btn btn-success btn-mini">results</a>
+			    <span>9/13/14</span>
+			  </dt>
+			  <dt>
+			    <strong><a href="http://www.zaaldercross.com/menu/" title="INFO — Zaaldercross">Zaaldercross</a></strong> <a href="https://www.athletepath.com/zaaldercross/2014-09-20/results" class="register btn btn-success btn-mini">results</a>
+			    <span>9/20/14</span>
+			  </dt>
+			  <dt>
+			    <strong><a href="http://www.zone5promotions.com/ninkrossi/" title="">Ninkrossi CX</a></strong> <a href="https://www.athletepath.com/ninkrossi/2014-09-27/results" class="register btn btn-success btn-mini">results</a>
+			    <span>9/27/14</span>
+			  </dt>
+			  <dt>
+			    <strong><a href="http://cyclocross.gp/HeiserFarms2014/" title="2014 Heiser Farms Cyclocross race">Heiser CX</a></strong> <a href="https://www.athletepath.com/heiser-farms-cx/2014-10-04" class="register btn btn-success btn-mini">register</a>
+			    <span>10/4/14</span>
+			  </dt>
+			  <dt>
+			    <strong>Series Award Party</strong> 6pm at <a href="http://portlandbicyclestudio.com/" title="Portland Bicycle Studio - a bike shop in the Pearl district in Portland, Oregon.">Portland Bicycle Studio</a>
+			    <span>10/5/14</span>
+			  </dt>
+
+		<!--
+		  <dt>
+		    <a href="http://mudslingerevents.com/santa-cross-pb-bike-n-hike-corvallis-and-giant-bicycles/" title="Santa Cross P/B Bike N Hike Corvallis and Giant Bicycles 12/14/13 - Mudslinger Events - Oregon Outdoor Recreation" class="past">Santa Cross</a> [<a href="https://www.athletepath.com/santa-cross/2013-12-07/results" class="register">results</a>]
+		<small>(Corvallis, OR)</small>
+		    <span>12/14/13</span>
+		  </dt>
+		<dt>
+		    <strong><a href="https://www.facebook.com/permalink.php?story_fbid=637598366281745&amp;id=231542053554047">End of season closing party</a></strong>
+		<small>(Portland, OR)</small>
+		    <span>12/15/13</span>
+		  </dt>	
+		-->	
+		</dl>
+		</p>
+						
+		</div>
+		<div class="sixcol last">
+			<h2>Categories</h2>
+	
+	<p>
+		<strong>Men Beginners</strong><br>
+		<strong>Category C, Clydesdale*</strong><br>
+		<strong>Masters Category C 35+</strong><br>
+		<strong>Masters B 35+, Masters 50+, Masters 60+, Jrs 12+</strong><br>
+		<strong>Kiddie Kross A & B</strong><br>
+		<strong>Category A Men & Women, Masters Category A 35+</strong><br>
+		<strong>Women: Category B, Category C, Beginners</strong><br>
+		<strong>Masters 35+ A, B, & 45+, Jrs 10+</strong><br>
+		<strong>Category B and Single Speed</strong><br><br>
+		<em>Promoter and/or officials reserves the right to change your category.<br>
+		(* Clydesdale=200+ lbs.)</em>
+		
+		
+		</p>
+			
+			
+			
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="sixcol">
+
+
+<h3>Fees</h3>
+	<p>
+		Follow the "register" links to upcoming races to register. Individual races range in price from $5-$27 per race.
+	</p>
+	
+	<h3>Points</h3>
+	
+	<p>
+		The best five out of six placings in the series will count in the final tally (dropping the one race with the fewest points). Riders must race in at least 4 races for the overall series. Series prizes will be awarded at the series end party. There will be no BAR points for the series, only the individual races.		
+	</p>
+	
+	<p>
+		Points will be rewarded to the top 30 placings according to <a href="Individualseriesscoring.pdf">this schedule</a>. Series scoring follows <a href="SeriesScoring.pdf">this criteria</a> and team scoring <a href="Teamscoringforsingleevents.pdf">follows this criteria</a>. Reminder: only your top 5 results count and a minimum of 4 race results needed to have a series overall final ranking. Point totals and point standings will be handled by <a href="http://www.athletepath.com/">Athletepath</a> and we'll link to them each week in the updates.
+	</p>
+	
+	<h3>Podiums/Leaders Jersey</h3>
+	
+	<p>
+		A short podium ceremony will follow each finish at the races. A GPRT leaders jersey provided by Castelli will be awarded to the leader of select categories during a short podium ceremony after their race. The points leader of each category is required to wear their leader's jersey while they maintain their lead.
+	</p>
+	
+	<h3>Field Limits</h3>
+	
+	<p>
+		To ensure a high level of quality racing, fields will be limited to 75 racers per category
+	</p>
+	
+	<h3>Series standings</h3>
+	
+	<p>
+		Points for the series will be tracked at Athletepath. They will continue to be updated after each race. We are not doing a points percentage transfer when upgraded.
+	</p>
+	
+
+			
+		</div>
+<div class="sixcol last">
+<h3>Registration</h3>
+
+
+
+<p>
+		The deadline for a full series registration has passed, but you can follow "register" links on the race list above to register online for each event.
+	</p>
+	
+
+<!--
+	<p>	
+	Three ways to register and purchase the series pass (All require an <a href="http://www.obra.org/pdfs/waiver.pdf" title="OBRA Waiver PDF">OBRA waiver</a>):	
+	</p>
+	
+	<p>1. <strong>Online Pre-registration for the SERIES PASS: <a href="https://www.athletepath.com/grand-prix-ryan-trebon/2014-10-04">Athletepath Online Registration</a></strong> ($134)</p>
+	
+	<p>
+	<a href="https://www.athletepath.com/grand-prix-ryan-trebon/2014-10-04" class="register btn btn-success btn-mini">register for the entire series</a>
+	</p>
+	
+	<p>
+		2. <strong>CX Number Pick-up event</strong>: Purchase your SERIES PASS at <a href="http://bazipdx.com/" title="Bazi Bierbrasserie">Bazi Bierbrasserie</a> on August 28th from 6pm -8pm. Come enjoy a fine Belgian beer while picking up your season number and avoid the line at the first race. We'll be handing out numbers to pre-registered racers ONLY. These will be OBRA CX Numbers and not necessarily specific to our series. ($130)
+	</p>
+
+
+	
+
+	<p>
+		3. <strong>Day of first race (David Douglas #1):</strong> Register at the event, but arrive early enough to get in line. 
+	</p>	
+		
+	<p>	
+		Day-of-event registration for each individual race will be available at each race venue, and will be based on the independent promoters' fee structure. You can find online registration links on the individual race flyers. Save time by printing out <a href="http://www.obra.org/pdfs/waiver.pdf" title="OBRA Waiver PDF">an OBRA waiver</a> (PDF) and completing it at home.
+	</p>
+	
+	
+-->
+	
+
+	
+	
+	<h3>Memberships &amp; Licenses</h3>
+	
+	<p>
+		OBRA membership required for all riders. Single race memberships are available for $5.00. Season OBRA memberships are available for $20.00. Junior season memberships are free.
+	</p>
+	
+	<h3>Prize List</h3>
+	
+
+	<p>
+		A combined prize list well over $5,000 across the series. Every series race provides their own prize list at each individual race (cash and/or merchandise).</p>
+	<p><a href="http://westendbikespdx.com/" title="West End Bikes">West End Bikes</a> will be providing a $3,000 Cash/Gift Certificate purse for all categories (Cash - A's / G.C. and product -all other categories). Equal payout.</p>
+	<p>Complete custom Kona CX bike from <a href="http://sellwoodcycle.com/" title="Sellwood Cycle Repair">Sellwood Cycle Repair</a> at series end party raffle (must attend 5 races to be eligible).</p>
+		
+		
+		
+		<h3>T-shirts</h3>
+
+		<p>
+			Yes, we have GPRT shirts for sale at events!
+		</p>
+
+</div>
+	</div>
+</div>
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="twelvecol">
+			<h2 class="flyer"><a href="GPRT.flier.pdf" title="">Download series flyer (PDF)</a></h2>
+			
+		<a name="blog"></a>
+		
+		<div class="posts">
+<!--		
+		<h3>Heiser Farms: Sunny day in the pumpkin patch</h3>
+		
+		<p class="blog clearfix"><a href="http://www.flickr.com/photos/mathowie/10127841343/" title="TR0C5163 by mathowie, on Flickr"><img src="http://farm8.staticflickr.com/7327/10127841343_e204c60ba9_n.jpg" width="320" height="213" alt="TR0C5163" style="float:left;margin-right:20px;margin-bottom:20px;border:0px;"></a> 
+			
+			Heiser Farms hosted a great day of racing in the warm sun, despite a week of heavy rains prior to the event. <a href="https://www.athletepath.com/heiser-farms-cx/2013-10-12/results">Results are up at athletepath</a> and photos are available (<a href="https://www.facebook.com/media/set/?set=a.10151926625739198.1073741832.266666779197&amp;type=1&amp;l=1b2e953324">1</a>, <a href="http://www.smckenzie.com/keyword/heiser%20farm" title="Shane McKenzie  Sports Photography Photo Keywords: heiser farm">2</a>)
+			
+		</p>
+		
+		
+		<h3>Ninkrossi: Mud, hills, and the big N</h3>
+		
+		<p class="blog clearfix"><img src="ninkrossi.jpg" width="320" height="320" alt="Ninkrossi N" style="float:left;margin-right:20px;margin-bottom:20px;"> 
+			
+			Ninkrossi was a wet, muddy, but fun affair in Washougal, Wa. The hilly course provided a challenge to many pushing through the muddy ascents and fast descents of the course. <a href="https://www.facebook.com/events/1378831432346582/1404110516485340/">Facebook event page is here</a>, <a href="https://www.athletepath.com/ninkrossi/2013-09-28/results">results are at Athletepath</a>, and photos are available (<a href="http://bhsnaps.smugmug.com/Cyclocross/Ninkrossi" title="Ninkrossi - Brooke Hoyer Snaps">1</a>, <a href="http://leonardjohnson.zenfolio.com/p1031736033" title="HotFootPhoto | GPET Ninkrossi 09/28/2013">2</a>, <a href="http://joel-sunderland.squarespace.com/grand-prix-erik-tonkin-ninkrossi-92813" title="Grand Prix Erik Tonkin - Ninkrossi 9.28.13 — objectif images">3</a>)
+		</p>
+		
+		<h3>Zaandercross: Sand, everywhere</h3>
+		
+		<p class="blog clearfix"><a href="http://www.flickr.com/photos/axoplasm/9868046733/" title="Zaandercross by axoplasm, on Flickr"><img src="http://farm8.staticflickr.com/7424/9868046733_7f6e1ca447_n.jpg" width="240" height="320" alt="Zaandercross" style="float:left;margin-right:20px;margin-bottom:20px;"></a> 
+			
+			Zaandercross is known for its long sand sections, stairs, and general difficult course and this year didn't disappoint with the addition of light rain. <a href="https://www.athletepath.com/zaandercross/2013-09-21/results">Results are on Athletepath</a> and photos are available (<a href="http://bhsnaps.smugmug.com/Cyclocross/Zaandercross" title="Zaandercross - Brooke Hoyer Snaps">1</a>, <a href="http://www.flickr.com/photos/lkuipers/sets/72157635821811076/" title="GPET '13 - Zaandercross - a set on Flickr">2</a>, <a href="http://catherineleighcooper.com/p626886998" title="Catherine L Cooper | GPET: Zaandercross 2013">3</a>) and <a href="https://www.facebook.com/events/279841115491650/">the event's facebook page is here</a>.
+		</p>
+	
+		
+		<h3>Hood River Double Cross: Hot times on the river</h3>
+		
+		<p class="blog clearfix"><a href="http://www.flickr.com/photos/teamlazytarantulas/9777907103/" title="DSC_0682 by lazytarantulas, on Flickr"><img src="http://farm6.staticflickr.com/5472/9777907103_44a197f9f0_n.jpg" width="320" height="212" alt="DSC_0682" style="float:left;margin-right:20px;margin-bottom:20px;"></a> 
+			
+			Hood River High School provided a nice venue with varied terrain including singletrack fast downhills, sandy sections and grass hill climbs. It was a scorcher of a race, taking place in the middle of a heat wave before Fall's rains. <a href="https://www.athletepath.com/double-cross/2013-09-14/results">Results are up at Athletepath</a> and photos are available (<a href="https://www.facebook.com/media/set/?set=a.725536444128338.1073741849.270961732919147&amp;type=1">1</a>, <a href="http://www.lasalaimages.com/Sports/Cycling/2013-Cycling/2013-Cyclocross-Races/2013-Hood-River-Double-CX" title="2013 Hood River Double CX - lasala-images">2</a>)
+		</p>
+		
+		<h3>Het Meer: Storming the beach</h3>
+		
+		<p class="blog clearfix"><a href="http://www.flickr.com/photos/mathowie/9695605123/" title="TR0C3702 by mathowie, on Flickr"><img src="http://farm6.staticflickr.com/5484/9695605123_2d020e4fbe_n.jpg" width="320" height="236" alt="TR0C3702" style="float:left;margin-right:20px;margin-bottom:20px;"></a> 
+			
+			Het Meer's famous beach provided ample entertainment among the beauty of Vancouver Lake Park. The weather was warm and dry, the sand was ridable and mostly fast thanks to recent rains, and the rest of the course was easy to manage. There are some photos from the day (<a href="http://www.thewolfsmouth.com/2013/09/09/photos-gpet-2-het-meer-by-jose-sandoval/" title="Photos: GPET #2 Het Meer By Jose Sandoval | thewolfsmouth">1</a>, <a href="https://www.facebook.com/pages/Bicycle-Way-of-Life-Racing-Team/482595515121312?sk=photos_albums">2</a>, <a href="http://www.flickr.com/photos/mathowie/sets/72157635424366121/" title="GPET Het Meer - a set on Flickr">3</a>, <a href="https://plus.google.com/u/0/photos/101952221977609300452/albums/5921278290357378321">4</a>, <a href="http://bhsnaps.smugmug.com/Cyclocross/Het-Meer-CX">5</a>) and <a href="https://www.athletepath.com/het-meer-cx/2013-09-07/results">results are up at Athletepath</a>. More photos and videos from the day are available on <a href="https://www.facebook.com/events/1392912977593458/1410519939166095/?notif_t=like">the Facebook event page for Het Meer</a>.
+		</p>
+		
+		
+			<h3>David Douglas #1: Starting the season in the red zone</h3>
+			
+			<p class="blog clearfix"><a href="http://www.flickr.com/photos/mathowie/9638540603/" title="TR0C2670 by mathowie, on Flickr"><img src="http://farm4.staticflickr.com/3696/9638540603_acccf0fec4_n.jpg" width="320" height="251" alt="TR0C2670" style="float:left;margin-right:20px;margin-bottom:20px;"></a> A scorching hot day at the park kicked off the GPET series and the OBRA cyclocross season. The races were fast, exhausting, but recent rains cut the dust and made conditions just about perfect. There are <a href="http://www.flickr.com/photos/mathowie/sets/72157635316760619/" title="GPET David Douglas #1 - a set on Flickr">some photos from the day</a> and <a href="https://www.athletepath.com/david-douglas-1/2013-08-31/results">results are up at Athletepath</a>. Thanks everyone for coming out and making the kick-off event so great! 	
+			</p>
+		
+		
+		-->
+					<h3>GPRT is on Twitter, Facebook</h3>
+
+			<p>Follow <a href="https://twitter.com/cyclocrossGP">GPRT on Twitter</a> for news, tips, reactions, and retweets from racers throughout the season. <!--There is <a href="https://www.facebook.com/events/358932067567646/">a GPRT event listing on Facebook</a> as well.--></p>
+			
+			<p>
+				On Facebook, you can mark yourself as going to the following events: <a href="https://www.facebook.com/events/1523259047903847/">the launch party</a>, <a href="https://www.facebook.com/events/933557113324990/">the entire series</a>, as well as individual events like <a href="https://www.facebook.com/events/1484045148500834/">David Douglas CX</a>, <a href="https://www.facebook.com/events/678276282247983/">Het Meer</a> CX, and <a href="https://www.facebook.com/events/1660013757556089/">Ninkrossi</a>.
+				
+			</p>
+			
+			
+			</div>
+			
+		<!--
+			<a name="blog"></a>
+			<h2 class="flyer">Updates</h2>
+			
+			
+			<h3>Final Series Results</h3>
+			
+			<p class="blog clearfix">
+			<a href="http://GPET.cx/GPET-results">Our final results are now posted here</a>, thanks again everyone that raced and enjoyed the series.
+			
+			
+			</p>
+			
+			
+			
+			<h3>GPET Series Awards Party!</h3>
+			
+			<p class="blog clearfix">
+			This Thursday, December 6th is our annual awards party for the GPET series winners. Come to Upper Echelon Fitness starting at 7pm. <a href="http://upperechelonfitness.com/2012/11/gp-tina-brubaker-awards-party-at-uef-dec-6th/">Full details on their site</a>.
+			
+			
+			
+			</p>
+			
+			
+			
+			<h3>Ninkrossi: Brewing up Mud</h3>
+			
+			<p class="blog clearfix">
+			<a href="http://nickfochtman.photoshelter.com/gallery/Ninkrossi-2012/G0000Md3l0XPRymk" title="Tina Brubaker, Ninkrossi"><img src="/images/ninkrossi.png" width="320" style="float:left;margin-right:20px;margin-bottom:20px;"></a>
+			
+			The rains finally appeared for the Ninkrossi race at Washougal MX park in Southern Washington. A deceptively small course featured lots of ups and downs and a fair bit of the slippery stuff as the skies offered up a touch of rain throughout the day. <a href="https://www.athletepath.com/grand-prix-tina-brubaker/2012-10-13">Results are up at Athletepath</a>. Photos from the event are trickling in as well (<a href="http://nickfochtman.photoshelter.com/gallery/Ninkrossi-2012/G0000Md3l0XPRymk">1</a>, <a href="http://www.flickr.com/photos/mathowie/sets/72157631769739460/">2</a>)
+			
+			</p>
+			
+			
+			
+			<h3>Heiser Farms: Fun in the sun</h3>
+			
+			<p class="blog clearfix">
+			
+			
+			<a href="http://www.flickr.com/photos/mathowie/8061660129/" title="TR0C7959 by mathowie, on Flickr"><img src="http://farm9.staticflickr.com/8457/8061660129_a4ffc00d53_n.jpg" width="320" height="213" alt="TR0C7959" style="float:left;margin-right:20px;margin-bottom:20px;"></a>
+			
+			Another amazing day of racing in the warm sun took place at Heiser Farms, where 365 racers battled the bumps, dust, gravel, mud, and jumps. The pumpkin cannon blasted in the background as racers jostled for positions. <a href="https://www.athletepath.com/grand-prix-tina-brubaker/2012-10-06">Race results are up at Athletepath</a>. Photos from the event are available (<a href="http://www.flickr.com/photos/mathowie/sets/72157631709318883/">1</a>) as well as <a href="https://vimeo.com/50968216">Kent Johnston's amazing video of the day's racing and fun around the farm</a>.
+			
+			
+			</p>
+-->			
+			
+			
+			
+			
+			
+			
+
+		
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="twelvecol footy">
+			<img id="Image-Maps_2201308042002497" src="/images/footer-gprt.png" usemap="#Image-Maps_2201308042002497" border="0" width="1140" height="194" alt="" />
+			<map id="_Image-Maps_2201308042002497" name="Image-Maps_2201308042002497">
+			<area shape="rect" coords="10,10,357,156" href="http://westendbikespdx.com/" alt="West End Bikes" title="West End Bikes"    />
+			<area shape="rect" coords="413,14,648,160" href="http://sellwoodcycle.com/" alt="Sellwood Cycle Repair" title="Sellwood Cycle Repair"    />
+			<area shape="rect" coords="690,16,814,119" href="https://www.athletepath.com/" alt="Athletepath" title="Athletepath"    />
+			<area shape="rect" coords="864,3,983,84" href="http://upperechelonfitness.com/" alt="Upper Echelon Fitness" title="Upper Echelon Fitness"    />
+			<area shape="rect" coords="818,85,995,128" href="http://www.metafilter.com/" alt="MetaFilter" title="MetaFilter"    />
+			<area shape="rect" coords="1014,13,1113,110" href="http://castelli-cycling.com/en/home/" alt="Castelli" title="Castelli"    />
+			<area shape="rect" coords="709,132,969,164" href="http://portlandbicyclestudio.com/" alt="Portland Bicycle Studio" title="Portland Bicycle Studio"    />
+			<area shape="rect" coords="984,128,1119,160" href="http://jennlevo.com/" alt="Jenn Levo Graphic Design" title="Jenn Levo Graphic Design"    />
+			</map>
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+</html>
