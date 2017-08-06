@@ -6,12 +6,12 @@ layout: default
 
 [Sellwood Cycle Repair](https://sellwoodcycle.com/), [Castelli](https://www.castelli-cycling.com/), and Zone 5 Promotions are proud to present the 2017 Cyclocross Grand Prix.
 
-The Grand Prix Candi Murray is a Cyclocross Series composed of seven independently promoted CX races. These great independent races kick off the OBRA Cyclocross season and run from the start of September to the end of October. Riders from any state are welcome to race the GPCM. Series overall awards and prizes will be handed out at the GPCM series end party, in late October. Come experience some amazing cyclocross courses, competitive racing and exciting new race venues.
+`The Grand Prix Candi Murray` is a Cyclocross Series composed of seven independently promoted CX races. These great independent races kick off the OBRA Cyclocross season and run from the start of September to the end of October. Riders from any state are welcome to race the GPCM. Series overall awards and prizes will be handed out at the GPCM series end party, in late October. Come experience some amazing cyclocross courses, competitive racing and exciting new race venues.
 
 
 ## Races
 
-* __`Register for all races with [the GPCM Series Pass](http://obra.org/events/25680/register)`__
+* __`Register for all races` with [the GPCM Series Pass](http://obra.org/events/25680/register)__
 * David Douglas CX (David Douglas Park, Vancouver, WA) 9/2/17 [Register](http://obra.org/events/25678/register)
 * Het Meer CX (Vancouver Lake, Vancouver, WA) 9/9/17 [Register](http://obra.org/events/25679/register)
 * Zaaldercross (Alderbrook Park, Brush Prairie, WA) 9/16/17 [Register](http://obra.org/events/25681/register)
