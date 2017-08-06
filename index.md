@@ -6,18 +6,31 @@ The Grand Prix Candi Murray is a Cyclocross Series composed of seven independent
 
 ## Races
 
-* You want to create an "about me" page from a single markdown file and host it under a custom domain name.
-* You want to create a single-page website that's mostly text, like [Know Your Company](https://knowyourcompany.com/).
-* You want to share a single markdown file and tried GitHub Gist ([example](https://gist.github.com/dypsilon/5819504)), but would like something nicer-looking.
-* You want something like GitHub's [automatic page generator](http://pages.github.com/) for a non-code repository.
+* __Register for all races with [the GPCM Series Pass](http://obra.org/events/25680/register)
+* David Douglas CX (David Douglas Park, Vancouver, WA) 9/2/17 [Register](http://obra.org/events/25678/register)
+* Het Meer CX (Vancouver Lake, Vancouver, WA) 9/9/17 [Register](http://obra.org/events/25679/register)
+* Zaaldercross (Alderbrook Park, Brush Prairie, WA) 9/16/17 [Register](http://obra.org/events/25681/register)
+* Ninkrossi CX (WMXP, Washougal, WA) 9/23/17 [Register](http://obra.org/events/25682/register)
+* Heiser CX (Heiser Farm, Dayton, OR) 9/30/17 [Register](http://obra.org/events/25683/register)
+* Washougal CX (WMXP, Washougal, WA) 10/14/17 [Register](http://obra.org/events/25684/register)
+* Luscher Farm Crosstoberfest(Lake Oswego, OR) 10/28/17 [Register](http://obra.org/events/25685/register)
 
-This page itself is built with Solo. It's generated from [this markdown file](https://github.com/chibicode/solo/blob/gh-pages/_includes/index.md).
 
-## Usage
+## Categories
 
-First, [install Jekyll](http://jekyllrb.com/docs/installation/). Then download Solo from its [GitHub Repository](https://github.com/chibicode/solo). Start Jekyll and you should see this page up and running.
+* Category 1/2 Men, Women, 35+ Men, 35+ Women
+* Category 2/3 Men
+* Category 3 35+ Men, 35+ Women
+* Category 4 Men, 35+ Men, Women
+* Category 5 Men, Women
+* Athena, Clydesdale
+* Masters 50+ Men, Women
+* Masters 60+ Men
+* SingleSpeed Men, Women
+* Elite Jr. Men, Women
+* Junior Men, Women
+**Promoter and/or officials reserves the right to change your category.**
 
-**The main file you'll be editing is `index.md`**. This becomes the content for the page.
 
 ### Other Files
 
