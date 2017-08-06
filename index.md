@@ -6,7 +6,7 @@ The Grand Prix Candi Murray is a Cyclocross Series composed of seven independent
 
 ## Races
 
-* __Register for all races with [the GPCM Series Pass](http://obra.org/events/25680/register)
+* __Register for all races with [the GPCM Series Pass](http://obra.org/events/25680/register)__
 * David Douglas CX (David Douglas Park, Vancouver, WA) 9/2/17 [Register](http://obra.org/events/25678/register)
 * Het Meer CX (Vancouver Lake, Vancouver, WA) 9/9/17 [Register](http://obra.org/events/25679/register)
 * Zaaldercross (Alderbrook Park, Brush Prairie, WA) 9/16/17 [Register](http://obra.org/events/25681/register)
@@ -29,7 +29,8 @@ The Grand Prix Candi Murray is a Cyclocross Series composed of seven independent
 * SingleSpeed Men, Women
 * Elite Jr. Men, Women
 * Junior Men, Women
-**Promoter and/or officials reserves the right to change your category.**
+
+*Promoter and/or officials reserves the right to change your category.*
 
 
 ### Other Files
