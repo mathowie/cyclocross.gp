@@ -1,0 +1,42 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		
+	}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(/web/20170415065539im_/http://cyclocross.gp/css/logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
+/*
+     FILE ARCHIVED ON 06:55:39 Apr 15, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:43:59 Aug 18, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
